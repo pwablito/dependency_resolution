@@ -1,0 +1,26 @@
+[{
+    "name": "prog1",
+    "dependencies": [
+        "prog2",
+        "lib1",
+        "lib2",
+        "lib3"
+    ]
+}, {
+    "name": "prog2",
+    "dependencies": [
+        "lib1",
+        "lib4"
+    ]
+}, {
+    "name": "lib1",
+    "dependencies": [
+        "lib5"
+    ]
+}, {
+    "name": "lib2",
+    "dependencies": [
+        "lib3",
+        "lib16"
+    ]
+}]
