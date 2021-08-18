@@ -58,5 +58,4 @@ class Graph:
     def get_install_order(self, node):
         install_queue = queue.Queue()
         self.add_node_to_queue(node, install_queue, [])
-        print(install_queue.queue)
-        return reversed(install_queue.queue)
+        return install_queue.queue
